@@ -4,7 +4,8 @@
 This project builds a **scalable ETL pipeline** for Uber ride data using **Google Cloud Platform (GCP)**, **Mage AI**, **BigQuery**, and **Looker Studio**. The goal is to **extract, transform, and analyze** Uber trip data to uncover **key business insights** related to **trip trends, revenue distribution, and customer behavior**.  
 
 ## Architecture 
-![Architecture Diagram](https://github.com/user-attachments/assets/b62fab45-0ec9-4b0c-8fb5-21e20bc03ea4)
+![Architecture Diagram](https://github.com/user-attachments/assets/b220093f-0c4f-4c0e-89f0-2eb84ad6da41)
+
 
 ## 🛠 Technologies Used  
 - **Google Cloud Storage** – Stores raw trip data  
@@ -28,9 +29,12 @@ More info about dataset can be found here:
 📖 **Data Dictionary:** [NYC TLC Data Dictionary](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)  
 
 ## Data Model
-![Uber Data Model](https://github.com/user-attachments/assets/da3abfd2-8205-4a4a-b0da-a9905de289fc)
+![Uber Data Model](https://github.com/user-attachments/assets/491ef437-b352-4885-9c22-0c1d26f4bbcc)
+
 
 ## 🔍 Key Insights from Looker Studio Dashboard
+
+<img width="1082" alt="Uber Data Analytics Dashboard" src="https://github.com/user-attachments/assets/6f872506-11ae-4441-b268-c03c9fe2bc39" />
 
 ### **1️⃣ Peak Ride Hours & Demand Trends**
 - **High Demand Periods:** The highest number of trips occur during **late-night (12 AM - 2 AM) and evening (4 PM - 8 PM)**, likely due to nightlife and commuting hours.
@@ -47,8 +51,6 @@ More info about dataset can be found here:
 ### **4️⃣ Tipping Trends & Customer Behavior**
 - **Only 24.6% of riders tip their drivers**, indicating that **tipping is not a universal practice** among users.
 - **Credit Card Users Tip More:** **Customers paying via credit cards tip nearly 2x more** than cash users, showing a strong correlation between **digital payments and tipping behavior**.
-
-<img width="1082" alt="Uber Data Analytics Dashboard" src="https://github.com/user-attachments/assets/c497dcaa-faa2-4538-bb16-6cb6c141c460" />
 
 <br/>🌐 **You can view the live dashboard here:** [Uber Data Analytics Dashboard](https://lookerstudio.google.com/s/js6S22JOeN4)
 
