@@ -12,13 +12,8 @@ This project builds a **scalable ETL pipeline** for Uber ride data using **Googl
 - **Mage AI** – ETL pipeline for data transformation  
 - **BigQuery** – Cloud-based data warehouse for analytics  
 - **Looker Studio** – Interactive business intelligence dashboard  
-- **Python & SQL** – Used for ETL and analytical transformations  
-```mermaid
-graph TD;
-    A[Raw Data - Cloud Storage] -->|ETL| B[Mage AI - Compute Engine];
-    B -->|Transformed Data| C[BigQuery - Analytics Table];
-    C -->|Data Visualization| D[Looker Studio Dashboard];
-```
+- **Python & SQL** – Used for ETL and analytical transformations
+  
 ## Dataset Used
 TLC Trip Record Data
 Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
