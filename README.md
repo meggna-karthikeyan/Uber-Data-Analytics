@@ -8,7 +8,11 @@ This project builds a **scalable ETL pipeline** for Uber ride data using **Googl
 
 
 ## 🛠 Technologies Used  
+
+![Google Cloud Storage](https://img.shields.io/badge/Google%20Cloud%20Storage-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)  ![Lucidchart](https://img.shields.io/badge/Lucidchart-FE6714.svg?style=for-the-badge&logo=lucidchart&logoColor=white) ![Mage AI](https://img.shields.io/badge/Mage%20AI-%230072F5.svg?style=for-the-badge&logo=Google%20Cloud&logoColor=white)  ![BigQuery](https://img.shields.io/badge/BigQuery-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)  ![Looker Studio](https://img.shields.io/badge/Looker%20Studio-%230080FF.svg?style=for-the-badge&logo=looker&logoColor=white)  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  ![SQL](https://img.shields.io/badge/SQL-%23007ACC.svg?style=for-the-badge&logo=Microsoft%20SQL%20Server&logoColor=white)
+
 - **Google Cloud Storage** – Stores raw trip data  
+- **Lucid Chart** – Data Model preparation
 - **Mage AI** – ETL pipeline for data transformation  
 - **BigQuery** – Cloud-based data warehouse for analytics  
 - **Looker Studio** – Interactive business intelligence dashboard  
@@ -25,7 +29,6 @@ More info about dataset can be found here:
 
 ## Data Model
 ![Uber Data Model](https://github.com/user-attachments/assets/491ef437-b352-4885-9c22-0c1d26f4bbcc)
-
 
 ## 🔍 Key Insights from Looker Studio Dashboard
 
@@ -47,7 +50,7 @@ More info about dataset can be found here:
 - **Only 24.6% of riders tip their drivers**, indicating that **tipping is not a universal practice** among users.
 - **Credit Card Users Tip More:** **Customers paying via credit cards tip nearly 2x more** than cash users, showing a strong correlation between **digital payments and tipping behavior**.
 
-<br/>🌐 **You can view the live dashboard here:** [Uber Data Analytics Dashboard](https://lookerstudio.google.com/s/js6S22JOeN4)
+🌐 **You can view the live dashboard here:** [Uber Data Analytics Dashboard](https://lookerstudio.google.com/s/js6S22JOeN4)
 
 ## 🎯 Business Implications & Optimization Strategies
 ✅ **Surge Pricing Optimization:** Adjust pricing **dynamically during peak hours (12 AM - 2 AM, 4 PM - 8 PM)** to **maximize revenue**.<br/>
