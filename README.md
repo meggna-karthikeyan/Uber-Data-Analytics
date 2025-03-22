@@ -1,5 +1,7 @@
 # 🚖 Uber Data Analytics | End-to-End Data Engineering Project
 
+![image](https://github.com/user-attachments/assets/ff0f2743-264c-4452-969a-50d00ea8dee3)
+
 ## 📝 Overview  
 This project builds a **scalable ETL pipeline** for Uber ride data using **Google Cloud Platform (GCP)**, **Mage AI**, **BigQuery**, and **Looker Studio**. The goal is to **extract, transform, and analyze** Uber trip data to uncover **key business insights** related to **trip trends, revenue distribution, and customer behavior**.  
 
